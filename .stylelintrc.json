@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "stylelint-config-standard"
+    ],
+    "plugins": [
+        "stylelint-scss"
+    ],
+    "rules": {
+        "color-hex-case": "upper",
+        "font-weight-notation": ["numeric", { "ignore": ["relative"] }],
+        "comment-no-empty": null,
+        "at-rule-no-unknown": null,
+        "length-zero-no-unit": null,
+        "value-list-comma-newline-after": "never-multi-line"
+    }
+}
