@@ -38,6 +38,7 @@
         "no-lonely-if": 0,
         "react/destructuring-assignment": 0,
         "default-param-last": 0,
-        "import/no-default-export": 0
+        "import/no-default-export": 0,
+        "no-param-reassign": 0
     }
 }
