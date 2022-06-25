@@ -39,6 +39,7 @@
         "react/destructuring-assignment": 0,
         "default-param-last": 0,
         "import/no-default-export": 0,
-        "no-param-reassign": 0
+        "no-param-reassign": 0,
+        "react/no-unstable-nested-components": 0
     }
 }

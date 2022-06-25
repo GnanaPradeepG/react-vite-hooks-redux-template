@@ -9,5 +9,8 @@ export default defineConfig({
     eslint({
       fix: true,
     })
-  ]
+  ],
+  define: {
+    'process.env': {}
+  }
 })
