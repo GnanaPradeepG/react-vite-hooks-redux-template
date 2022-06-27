@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from '../features/Navbar/Navbar';
 import HomeView from '../features/Home/HomeView';
 import Login from '../features/Login/Login';
-import Footer from './Footer';
-import ProtectedRoute from './utils/ProtectedRoute';
+import Footer from '../features/Footer/Footer';
+// import ProtectedRoute from './utils/ProtectedRoute';
 
 function View() {
   return (
